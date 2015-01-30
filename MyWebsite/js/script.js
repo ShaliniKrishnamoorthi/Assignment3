@@ -97,3 +97,8 @@ buttonAll.addEventListener('click',function(evt)
 		isVisibl = true;
 	}
 });
+
+/*Part 3*/
+
+var org_summary = document.querySelector('.org-sum');
+

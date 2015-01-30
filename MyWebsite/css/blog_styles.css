@@ -18,7 +18,7 @@ h2
 	font-size: 40pt;
 	font-weight: normal;
 	text-align: center;	
-	color: white;
+	color: black;
 }
 
 .icons{
@@ -29,7 +29,7 @@ h2
 article{
 	font-family:'Brush Script MT', cursive;
 	font-size:26pt;
-	color:white;
+	color:black;
 	font-weight: normal;
 }
 p{
@@ -47,6 +47,17 @@ form{
 	font-family:'Brush Script MT', cursive;
 	font-size: 30pt;
 	color:yellow;
+}
+
+.transparent_box{
+	background-color: #FFFFFF;
+    /*border: 1px solid black;*/
+    opacity: 0.6;
+    /*border-width: 1px;
+	border-style: solid;
+	border-color: black; */
+	border-radius:10px; 
+ /*   filter: alpha(opacity=60); for IE*/
 }
 
 /*header{

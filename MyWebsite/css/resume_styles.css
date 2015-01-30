@@ -77,6 +77,55 @@ body
 .hidden {
 	display: none;
 }
+
+section{
+	display:block;
+}
+/*#page-wrap {
+ 	width: 370px; 
+ 	margin: 60px auto; 
+}*/
+.slide-up{
+	display:block;
+	/*background: #eee;*/
+	/*border: 1px solid #ccc;*/
+	height:65px;
+	margin:0 0 20px 0; /* bottom 20*/
+	overflow: hidden;
+}
+
+.org-sum{
+	height:55px;
+	/*text-align:center;*/
+	/*line-height:25px;*/
+	opacity:1;
+
+	-webkit-transition:all 0.6s linear;
+	-moz-transition:all 0.6s linear;
+	-o-transition:all 0.6s linear;
+}
+
+.org-sum:hover{
+	margin-top:-65px;	
+	opacity:0;
+}
+
+/*.slide-up div*/
+.inside{
+	/*position: relative;*/
+	height: 65px;
+	/*padding:10px;*/
+	opacity:0;
+
+	-webkit-transition: all 0.6s linear; 
+	-moz-transition:all 0.4s linear;
+	-o-transition:all 0.4s linear;
+}
+/*.slide-up div:*/
+.inside:hover{
+	opacity:1;
+}
+
 /*header{
     position:absolute;
     top:0;
