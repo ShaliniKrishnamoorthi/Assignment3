@@ -100,5 +100,5 @@ buttonAll.addEventListener('click',function(evt)
 
 /*Part 3*/
 
-var org_summary = document.querySelector('.org-sum');
+// var org_summary = document.querySelector('.org-sum');
 
